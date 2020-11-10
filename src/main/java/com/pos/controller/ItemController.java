@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pos.repository.ItemRepository;
 import com.pos.stock.Item;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200","http://192.168.1.120:4200"})
 @RestController
 public class ItemController {
 	
